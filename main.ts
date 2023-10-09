@@ -2,7 +2,7 @@
  *
  * Created by: Ihor Chernyshev
  * Created on: Oct 2023
- * This program shows all the colors created by the RGB LED.
+ * This program shows all the colors created by the RGB LED
 */
 
 basic.clearScreen()
@@ -19,11 +19,11 @@ input.onButtonPressed(Button.A, function () {
   basic.showString('Blue')
   pins.digitalWritePin(DigitalPin.P14, 0)
   pins.digitalWritePin(DigitalPin.P15, 1)
-  basic.showString('Blue')
-  pins.digitalWritePin(DigitalPin.P15, 1)
+  basic.showString('Green')
+  pins.digitalWritePin(DigitalPin.P15, 0)
   pins.digitalWritePin(DigitalPin.P13, 1)
   pins.digitalWritePin(DigitalPin.P14, 1)
-  basic.showString('Magneta')
+  basic.showString('Magenta')
   pins.digitalWritePin(DigitalPin.P14, 0)
   pins.digitalWritePin(DigitalPin.P15, 1)
   basic.showString('Yellow')
@@ -32,7 +32,7 @@ input.onButtonPressed(Button.A, function () {
   basic.showString('Cyan')
   pins.digitalWritePin(DigitalPin.P13, 1)
   basic.showString('White')
-  pins.digitalWritePin(DigitalPin.P13, 1)
+  pins.digitalWritePin(DigitalPin.P13, 0)
   pins.digitalWritePin(DigitalPin.P14, 0)
   pins.digitalWritePin(DigitalPin.P15, 0)
   basic.showIcon(IconNames.Happy)
