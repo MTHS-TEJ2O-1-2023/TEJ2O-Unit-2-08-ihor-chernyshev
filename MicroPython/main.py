@@ -1,7 +1,7 @@
 """
 Created by: Ihor Chernyshev
 Created on: Oct 2023
-This module is a Micro:bit MicroPython program
+This program shows all the colors created by the RGB LED
 """
 
 from microbit import *
